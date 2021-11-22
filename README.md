@@ -22,8 +22,8 @@ now, url and parser is hardcoded to a specific api, if you want to add this to y
 
 ## external librarys
 
-okhttp - make the API calls.
-picasso - load images from url into a ImageView.
+* okhttp - make the API calls.
+* picasso - load images from url into a ImageView.
 
 ### Dependencies
 
