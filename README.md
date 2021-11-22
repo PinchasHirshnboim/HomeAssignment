@@ -4,9 +4,9 @@ An simple app, to show images according to a search word.
 
 ## Process flow
 
-when app starts, the main activity is shown a search box to capture search word, and an empty recycler view.
-once the search submited, it attempts to bring images from the api usint the key search, and populate them in the tecycler view.
-evety item in the list is able to show more details about its image.
+when app starts, the main activity is shown a search box to capture search word, and an empty RecyclerView.
+once the search submited, it attempts to bring images from the api using the key search, and populate them in the RecyclerView.
+every item in the list is able to show more details about its image.
 ![alt text](https://github.com/PinchasHirshnboim/HomeAssignment/blob/master/flow.jpg)
 
 ## problems I encountered
@@ -23,7 +23,7 @@ now, url and parser is hardcoded to a specific api, if you want to add this to y
 ## external librarys
 
 okhttp - make the API calls.
-picasso - load images from url into a ImageView
+picasso - load images from url into a ImageView.
 
 ### Dependencies
 
